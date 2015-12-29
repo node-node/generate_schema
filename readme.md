@@ -23,5 +23,7 @@ console.log(json_str);
 ```
 
 # Output
-    ```{"type":"object","properties":{"Array":{"type":"array","items":{"type":"number"}},"Boolean":{"type":"boolean"},"Null":{"type":"null"},"Number":{"type":"number"},"Object":{"type":"object","properties":{"a":{"type":"string"},"c":{"type":"string"}}},"String":{"type":"string"}}}
     ```
+    {"type":"object","properties":{"Array":{"type":"array","items":{"type":"number"}},"Boolean":{"type":"boolean"},"Null":{"type":"null"},"Number":{"type":"number"},"Object":{"type":"object","properties":{"a":{"type":"string"},"c":{"type":"string"}}},"String":{"type":"string"}}}
+    ```
+
