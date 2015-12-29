@@ -1,4 +1,10 @@
-<script src="generate_schema/json.js"></script>
+
+# JSON Object to JSON Schema for browser
+
+# Usage
+    
+   ```
+   <script src="generate_schema/json.js"></script>
 <script src="generate_schema/type-of-is.js"></script>
 
     var json = {
@@ -14,3 +20,8 @@
 var generateSchema = new GenerateSchema(json);
 var json_str = JSON.stringify(generateSchema);
 console.log(json_str);
+```
+
+# Output
+    ```{"type":"object","properties":{"Array":{"type":"array","items":{"type":"number"}},"Boolean":{"type":"boolean"},"Null":{"type":"null"},"Number":{"type":"number"},"Object":{"type":"object","properties":{"a":{"type":"string"},"c":{"type":"string"}}},"String":{"type":"string"}}}
+    ```
